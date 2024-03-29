@@ -1,0 +1,6 @@
+services:
+  sonoff:
+    container_name: sonoff
+    build: .
+    env_file:
+      - .env
